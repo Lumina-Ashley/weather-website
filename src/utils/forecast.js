@@ -7,7 +7,7 @@ if (error) {
   } else if(body.error){
       callback('Unable to find location, try again!', undefined)
   } else {
-    callback(undefined, body.current.weather_descriptions[0] + ". It is currently " + body.current.temperature + " degrees out there. It feels like " + body.current.feelslike +" degrees and there is a " +body.current.precip +"% of chance of precipitation.");
+    callback(undefined, body.current.weather_descriptions[0] + ". It is currently " + body.current.temperature + "°C out there. It feels like " + body.current.feelslike +"°C. There is a " +body.current.precip +"% chance of precipitation and Humidity is " +body.current.humidity+ "%");
   }
 });
 }

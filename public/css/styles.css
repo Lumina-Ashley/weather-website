@@ -34,6 +34,18 @@ header a{
     margin-right: 16px;
     text-decoration: none;
 }
+p a{
+    color: #497094;
+    text-decoration: none;
+}
+p a:hover{
+    color: #546474;
+    text-decoration: underline;
+}
+
+#img-credits{
+    font-size: smaller;
+}
 
 .portrait{
     width: 250px;
